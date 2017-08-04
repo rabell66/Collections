@@ -40,8 +40,6 @@ public class Main {
             } else {
                 thirdSet.add(student);
             }
-
-
         }
         HashMap<Student, Set> classroom = new HashMap<>();
 
@@ -53,10 +51,7 @@ public class Main {
 
         }
         classroom.values().forEach(e -> System.out.printf("Students:\n%s\n", e));
+        System.out.println("\n\n\n\nPrint out by entrySet" + classroom.entrySet());
 
-
-
-                  System.out.println("\n\n\n\nPrint out by entrySet" +classroom.entrySet());
-
+    }
 }
-                    }
